@@ -7,9 +7,6 @@ metadata:
 spec:
   minReadySeconds: 20
   replicas: 3
-  selector:
-    matchLabels:
-      app: vote
   template:
   spec:
     containers:
