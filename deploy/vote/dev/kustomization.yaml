@@ -7,5 +7,5 @@ patches:
 configMapGenerator:
   - name: vote
     literals:
-      - OPTION_A=Tripi Tropi
-      - OPTION_B=TUNG TUNG TUNG TUNG SAHUR
+      - OPTION_A="Tripi Tropi"
+      - OPTION_B="TUNG TUNG TUNG TUNG SAHUR"
