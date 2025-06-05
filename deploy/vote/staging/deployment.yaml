@@ -5,7 +5,7 @@ metadata:
   namespace: instavote
 spec:
   minReadySeconds: 20
-  replicas: 12
+  replicas: 5
   spec:
     containers:
       - image: schoolofdevops/vote:v5
