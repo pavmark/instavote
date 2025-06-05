@@ -6,7 +6,7 @@ metadata:
   name: vote
 spec:
   minReadySeconds: 20
-  replicas: 50
+  replicas: 10
   template:
     spec:
       containers:
