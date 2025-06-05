@@ -4,3 +4,8 @@ resources:
 - ../base
 patches:
 - path: deployment.yaml
+configMapGenerator:
+  - name: vote
+    literals:
+      - OPTION_A=STAGING
+      - OPTION_B=DEV
