@@ -3,8 +3,3 @@ kind: Kustomization
 resources:
 - deployment.yaml
 - service.yaml
-configMapGenerator:
-  - name: vote
-    literals:
-      - OPTION_A=STAGING
-      - OPTION_B=DEV
