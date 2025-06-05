@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: vote
+  namespace: instavote
 spec:
   minReadySeconds: 20
   replicas: 10
