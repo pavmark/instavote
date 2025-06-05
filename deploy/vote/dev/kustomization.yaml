@@ -4,3 +4,8 @@ resources:
 - ../base
 patches:
 - path: deployment.yaml
+configMapGenerator:
+  - name: vote
+    literals:
+      - OPTION_A=Tripi Tropi
+      - OPTION_B=TUNG TUNG TUNG TUNG SAHUR
